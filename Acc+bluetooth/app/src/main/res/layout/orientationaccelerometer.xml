@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="0.28">
+
+        <TextView
+            android:text="Accelerometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/accelerometer"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnSpan="3"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/zaxisAccelerometer"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="z: "
+            android:layout_row="1"
+            android:layout_column="2" />
+
+        <TextView
+            android:id="@+id/yaxisAccelerometer"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="y: "
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <TextView
+            android:id="@+id/xaxisAccelerometer"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="x: "
+            android:layout_row="1"
+            android:layout_column="0" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_weight="0.29">
+
+        <TextView
+            android:text="Magnetometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/magnetometer"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnSpan="3"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/xaxisMagnetic"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="x: "
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <TextView
+            android:id="@+id/yaxisMagnetic"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="y: "
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <TextView
+            android:id="@+id/zaxisMagnetic"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="z: "
+            android:layout_row="1"
+            android:layout_column="2" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_weight="0.29">
+        <TextView
+            android:text="Gyroscope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gyroscope"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnSpan="3"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/yaxisOrientation"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="y: "
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <TextView
+            android:id="@+id/zaxisOrientation"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="z: "
+            android:layout_row="1"
+            android:layout_column="2" />
+
+        <TextView
+            android:id="@+id/xaxisOrientation"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="x: "
+            android:layout_row="1"
+            android:layout_column="0" />
+
+
+    </GridLayout>
+</LinearLayout>

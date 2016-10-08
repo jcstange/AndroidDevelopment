@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Stange-PC\AndroidStudioProjects\activity-lifecycle\app\libs\android-support-v13.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ecda966839090a41b29a9239d44bafc06fdadb87">
+        <dex dex="C:\Users\Stange-PC\AndroidStudioProjects\activity-lifecycle\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v13_d0192fce40c78a21ee947e90e3cd54b1f98fe0b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Stange-PC\AndroidStudioProjects\activity-lifecycle\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e6aaccc956a2edbae55569a3ee55af04ddb88a9a">
+        <dex dex="C:\Users\Stange-PC\AndroidStudioProjects\activity-lifecycle\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bcd716087ef62e6095877f82fc8d81be421a3bf8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Stange-PC\AndroidStudioProjects\activity-lifecycle\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c7e0aae7650f8f44c4949fe22108fa04e527fcdf">
+        <dex dex="C:\Users\Stange-PC\AndroidStudioProjects\activity-lifecycle\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9214f46e546e9f63b503b5fd2f70c3ecb199522c\classes.dex" />
+    </item>
+
+</items>

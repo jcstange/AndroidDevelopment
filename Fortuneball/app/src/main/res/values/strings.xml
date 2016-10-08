@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fortuneball</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_share">Share</string>
+    <string name="fortune_description">Suggest the question, which you can answer “yes” or “no”, then click on the magic ball.</string>
+</resources>
